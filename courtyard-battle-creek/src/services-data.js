@@ -1,0 +1,21 @@
+// "Stay & Amenities" – facts from the Michigan.org listing and venue directories. CONFIRM details with the hotel.
+module.exports = [
+  { id: 'guest-rooms', icon: 'bed', img: 'room-king', alt: 'Modern hotel guest room with king bed', title: 'Guest Rooms', price: '',
+    intro: '102 guest rooms with the brand’s newer room design: room to work, room to relax, and a comfortable bed at the end of the day.',
+    points: ['King and queen room options', 'Work desk and seating area', 'Flat-screen TV', 'Free Wi-Fi', 'Non-smoking hotel'] },
+  { id: 'suites', icon: 'home', img: 'suite-lounge', alt: 'Suite living area with sofa', title: 'Suites', price: '',
+    intro: 'Six suites with extra space to spread out, great for longer stays, families or anyone who wants a separate place to sit and work.',
+    points: ['Separate living area', 'Sofa seating', 'More room for longer stays', 'Ideal for families', 'Book early, as there are only six'] },
+  { id: 'bistro', icon: 'flame', img: 'breakfast', alt: 'Breakfast table with coffee and fruit', title: 'The Bistro', price: '',
+    intro: 'Start the day with breakfast and coffee, and come back in the evening for dinner and cocktails at the Bistro.',
+    points: ['Breakfast', 'Evening dining', 'Cocktails and drinks', 'Specialty coffee', 'Relaxed lobby seating'] },
+  { id: 'indoor-pool', icon: 'drop', img: 'indoor-pool', alt: 'Indoor hotel swimming pool', title: 'Saltwater Indoor Pool', price: '',
+    intro: 'A saltwater indoor pool, open all year round, so a Michigan winter never gets in the way of a swim.',
+    points: ['Saltwater pool', 'Indoors, all year round', 'Great for families', 'Unwind after a long drive', 'Ask the front desk for pool hours'] },
+  { id: 'fitness', icon: 'bolt', img: 'fitness', alt: 'Hotel fitness room with weights and machines', title: 'Fitness Room', price: '',
+    intro: 'Keep up your routine in the fitness room, with cardio machines that have their own personal screens, plus free weights.',
+    points: ['Cardio machines', 'Personal TV screens', 'Free weights', 'Stretching space', 'Fresh towels'] },
+  { id: 'business', icon: 'building', img: 'business-center', alt: 'Bright workspace with desks and seating', title: 'Business Center & 24/7 Market', price: '',
+    intro: 'Print a boarding pass, catch up on email, or grab a snack at midnight. The 24/7 Market and business center have you covered.',
+    points: ['Business center with printing', '24/7 Market for snacks and drinks', 'Guest laundry', 'Same-day dry cleaning', 'Free parking'] },
+];
